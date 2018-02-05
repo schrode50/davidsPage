@@ -1,9 +1,21 @@
 h1 {
-  font-family: "Roboto Slab", sans-serif;
+  text-align: center;
+  /* font-family: "Roboto Slab", sans-serif; */
+  font-family: "lobster two", sans-serif;
   font-weight: 300;
   font-size: 5em;
   position: relative;
 	/* background-color: #093641; */
   border-color: red;
   border-width: 100px;
+}
+
+img {
+  max-width: 100%;
+}
+
+button {
+  background-color: #387AA4;
+  color: #FFAAAA;
+
 }
