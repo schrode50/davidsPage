@@ -12,13 +12,29 @@
     <h1>Davids Rippin Page</h1>
     <nav class='container'>
       <div class="row">
-        <button class='three columns' type="button" name="button">About Me</button>
-        <button class='three columns' type="button" name="button">Favorites</button>
-        <button class='three columns' type="button" name="button">Other Stuff</button>
-        <button class='three columns' type="button" name="button">Contact</button>
+        <button class='three columns about' type="button" name="button">About Me</button>
+        <button class='three columns favorites' type="button" name="button">Favorites</button>
+        <button class='three columns neat' type="button" name="button">Something Neat</button>
+        <button class='three columns contact' type="button" name="button">Contact</button>
       </div>
     </nav>
-    <img src="images/rEvil.jpg" alt="">
+    <div class="wrapper">
+      <img src="images/rEvil.jpg" alt="">
+
+    </div>
+    <div class="">
+
+    <p class='opening'><em>HEY THERE!!!</em> Thanks for dropping by my page. It's always neet to see what others' are up to. There's not much going on around here. I'm a student preparing for college. I love animals, gaming, military history, and punk rock. My dad keeps trying to get me interested in coding so I'm giving it a shot here.</p>
+  </div>
   </body>
+  <script
+  src="http://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
   <script type="text/javascript" src="js/app.js"></script>
+  <script>
+    $(function() {
+      $('#includedContent').load('animation.html');
+    });
+  </script>
 </html>
