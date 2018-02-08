@@ -4,6 +4,6 @@ $('.neat').click(() => {
   document.location.href = 'animation.html';
 })
 
-$('.animateClick').click(() => {
+$('.back').click(() => {
   document.location.href = 'main.html';
 })
