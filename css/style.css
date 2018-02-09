@@ -1,5 +1,6 @@
 html {
   background-color: #CBC4BC;
+  /* background-image: url('../images/rEvil.jpg'); */
 }
 h1 {
   text-align: center;
@@ -10,10 +11,12 @@ h1 {
 
 img {
   max-width: 100%;
-  display: flex;
-  justify-content: center;
+  /* object-fit: contain; */
 }
-
+.wrapper {
+  display: flex;
+  justify-content: space-around;
+}
 button {
   background-color: #387AA4;
   color: #FFAAAA;
