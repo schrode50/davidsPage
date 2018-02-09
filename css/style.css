@@ -9,21 +9,47 @@ h1 {
   position: relative;
 }
 
-img {
-  max-width: 100%;
-  /* object-fit: contain; */
-}
 .wrapper {
   display: flex;
-  justify-content: space-around;
+  flex-flow: row wrap;
+  justify-content: space-between;
 }
+
 button {
+  max-width: 200px;
   background-color: #387AA4;
   color: #FFAAAA;
+  border-radius: 10px;
+}
+
+a {
+  color: #FFAAAA;
+}
+
+img {
+  max-width: 100%;
+}
+
+@media(max-width: 500px) {
+  .wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .nav-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 
 @media (min-width: 300px) {
   h1 {
+    /* justify-content: center; */
     font-weight: 200;
     font-size: 3em;
   }
@@ -46,6 +72,6 @@ button {
 
 .opening {
   padding: 1em;
-  margin-left: 20px;
-  margin-right: 20px;
+  margin-left: 70px;
+  margin-right: 50px;
 }
