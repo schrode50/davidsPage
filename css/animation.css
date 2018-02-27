@@ -8,9 +8,6 @@ body {
   align-items: center;
   perspective: 400px; }
 
-.back {
-  background-color: red; }
-
 div {
   position: absolute;
   transform-style: preserve-3d;

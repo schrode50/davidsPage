@@ -1,10 +1,10 @@
 'use strict'
 
-$('.neat').click(() => {
+$("[rel*='animation']").click(() => {
   document.location.href = 'animation.html';
 })
 
-$('.back').click(() => {
+$("#includedContent").click(() => {
   document.location.href = 'main.html';
 })
 
