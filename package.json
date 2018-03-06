@@ -1,0 +1,29 @@
+{
+  "name": "davidspage",
+  "version": "0.1.0",
+  "description": "fun page for bubba",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/schrode50/davidsPage.git"
+  },
+  "author": "Stephen Schroeder | schrode50@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/schrode50/davidsPage/issues"
+  },
+  "homepage": "https://github.com/schrode50/davidsPage#readme",
+  "devDependencies": {
+    "angular": "^1.6.9",
+    "eslint": "^4.18.1",
+    "gulp": "^3.9.1",
+    "gulp-eslint": "^4.0.2",
+    "webpack-stream": "^4.0.2"
+  },
+  "dependencies": {
+    "express": "^4.16.2"
+  }
+}
